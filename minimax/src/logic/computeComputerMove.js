@@ -105,10 +105,6 @@ const nextPlayer = {
   O: "X"
 };
 
-/**
- * Mapa przechowujaca wezly drzewa do szybszego odnajdowania. Kluczem jest zapis planszy w formacie JSON.
- */
-// const knownStates = new Map();
 let nodeCount = 0;
 
 function generateNextMoves(node, player) {
