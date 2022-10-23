@@ -103,7 +103,7 @@ function oppositeCorner(board, log) {
     log("Przechodzę dalej");
   }
 
-  return null;
+  return result;
 }
 
 function emptyCorner(board, log) {
@@ -126,7 +126,7 @@ function emptyCorner(board, log) {
     log("Przechodzę dalej");
   }
 
-  return null;
+  return result;
 }
 
 function emptySide(board, log) {
